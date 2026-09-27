@@ -159,6 +159,6 @@ button.clicked.connect(click_ok)
 win.score = 0
 win.total = 0
 next_question()
-win.resize(400,300)
+win.resize(500,400)
 win.show()
 app.exec()
