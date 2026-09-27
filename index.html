@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Алгоритмика Грозный — школа программирования для детей</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Фоновые эффекты -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow--1"></div>
+  <div class="bg-glow bg-glow--2"></div>
+
+  <!-- Навигация -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="logo">
+        <span class="logo__mark">A</span>
+        <span class="logo__text">Алгоритмика<span class="logo__dot">.</span></span>
+      </a>
+      <nav class="nav__links">
+        <a href="#about">О школе</a>
+        <a href="#courses">Курсы</a>
+        <a href="#features">Преимущества</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a href="tel:+79667222244" class="btn btn--outline nav__cta">Позвонить</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__badge">Международная школа программирования</div>
+      <h1 class="hero__title">
+        Дети <span class="text-gradient">создают</span> будущее
+        <br>уже сегодня
+      </h1>
+      <p class="hero__subtitle">
+        Программирование, математика и цифровое творчество для детей 6–17 лет.
+        Офлайн в Грозном и онлайн по всему миру.
+      </p>
+      <div class="hero__actions">
+        <a href="#contacts" class="btn btn--primary">Записаться на занятие</a>
+        <a href="#courses" class="btn btn--ghost">Смотреть курсы</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">150 000+</span>
+          <span class="stat__label">учеников по всему миру</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">6–17</span>
+          <span class="stat__label">лет — возраст учеников</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">90+</span>
+          <span class="stat__label">городов присутствия</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scanline"></div>
+  </section>
+
+  <!-- О школе -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">// О школе</span>
+        <h2 class="section__title">Алгоритмика в Грозном</h2>
+      </div>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            «Алгоритмика» — международная школа программирования и математики
+            для детей от 6 до 17 лет. Мы помогаем сделать первый шаг в мир IT,
+            обучая в игровой форме и индивидуализируя подход к каждому ребёнку
+            с помощью собственной онлайн-платформы.
+          </p>
+          <p>
+            В грозненском филиале работают опытные преподаватели, которые следят
+            за последними трендами в IT и образовании. Мы не только учим
+            программировать, но и прививаем практические навыки проектного
+            мышления и работы в команде.
+          </p>
+          <div class="about__meta">
+            <div class="meta-item">
+              <span class="meta-item__label">Адрес</span>
+              <span class="meta-item__value">ул. Умара Кадырова, 21</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-item__label">Телефон</span>
+              <a href="tel:+79667222244" class="meta-item__value meta-item__link">+7 (966) 722-22-44</a>
+            </div>
+            <div class="meta-item">
+              <span class="meta-item__label">Сайт</span>
+              <a href="https://grozny.algoritmika.org" target="_blank" rel="noopener" class="meta-item__value meta-item__link">grozny.algoritmika.org</a>
+            </div>
+          </div>
+        </div>
+        <div class="about__visual">
+          <div class="orb"></div>
+          <div class="terminal">
+            <div class="terminal__bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="terminal__body">
+              <p><span class="terminal__prompt">$</span> школа --город Грозный</p>
+              <p><span class="terminal__prompt">&gt;</span> статус: <span class="terminal__ok">открыта</span></p>
+              <p><span class="terminal__prompt">&gt;</span> курсы: Scratch, Python, Roblox, дизайн</p>
+              <p><span class="terminal__prompt">&gt;</span> формат: офлайн + онлайн</p>
+              <p class="terminal__cursor"><span class="terminal__prompt">$</span> <span class="blink">_</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Курсы -->
+  <section id="courses" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">// Направления</span>
+        <h2 class="section__title">Курсы для детей 6–17 лет</h2>
+        <p class="section__desc">
+          Программы разработаны с учётом возраста и интересов ребёнка.
+          Занятия проходят в группах до 12 человек.
+        </p>
+      </div>
+      <div class="courses">
+        <article class="course-card">
+          <div class="course-card__glow"></div>
+          <span class="course-card__age">6–7 лет</span>
+          <h3 class="course-card__title">Основы логики и программирования</h3>
+          <p class="course-card__text">
+            Первое знакомство с алгоритмами, логикой и цифровым творчеством
+            в игровой форме.
+          </p>
+          <span class="course-card__line"></span>
+        </article>
+        <article class="course-card">
+          <div class="course-card__glow"></div>
+          <span class="course-card__age">7–9 лет</span>
+          <h3 class="course-card__title">Компьютерная грамотность</h3>
+          <p class="course-card__text">
+            Устройство компьютера, работа с файлами, интернет-безопасность
+            и базовые инструменты.
+          </p>
+          <span class="course-card__line"></span>
+        </article>
+        <article class="course-card">
+          <div class="course-card__glow"></div>
+          <span class="course-card__age">8–12 лет</span>
+          <h3 class="course-card__title">Визуальное программирование на Scratch</h3>
+          <p class="course-card__text">
+            Создание игр, мультфильмов и анимаций через блочное
+            программирование.
+          </p>
+          <span class="course-card__line"></span>
+        </article>
+        <article class="course-card">
+          <div class="course-card__glow"></div>
+          <span class="course-card__age">9–12 лет</span>
+          <h3 class="course-card__title">Геймдизайн в Roblox Studio</h3>
+          <p class="course-card__text">
+            Разработка собственных игр на платформе Roblox, изучение
+            языка Lua.
+          </p>
+          <span class="course-card__line"></span>
+        </article>
+        <article class="course-card">
+          <div class="course-card__glow"></div>
+          <span class="course-card__age">12–17 лет</span>
+          <h3 class="course-card__title">Программирование на Python</h3>
+          <p class="course-card__text">
+            От основ синтаксиса до создания ботов, сайтов и работы
+            с данными.
+          </p>
+          <span class="course-card__line"></span>
+        </article>
+        <article class="course-card">
+          <div class="course-card__glow"></div>
+          <span class="course-card__age">10–17 лет</span>
+          <h3 class="course-card__title">Графический дизайн и видеоблогинг</h3>
+          <p class="course-card__text">
+            Работа с графическими редакторами, монтаж видео, создание
+            контента.
+          </p>
+          <span class="course-card__line"></span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Преимущества -->
+  <section id="features" class="section">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">// Почему мы</span>
+        <h2 class="section__title">Преимущества Алгоритмики</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="feature__icon">◈</div>
+          <h3 class="feature__title">Собственная платформа</h3>
+          <p class="feature__text">
+            Уникальная онлайн-платформа с интерактивными заданиями,
+            прогрессом и обратной связью.
+          </p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">⬡</div>
+          <h3 class="feature__title">Проектный подход</h3>
+          <p class="feature__text">
+            Дети не просто учат теорию — они создают реальные проекты
+            и защищают их.
+          </p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">⌘</div>
+          <h3 class="feature__title">Преподаватели-практики</h3>
+          <p class="feature__text">
+            Педагоги — действующие разработчики и дизайнеры, которые
+            знают индустрию изнутри.
+          </p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">⟁</div>
+          <h3 class="feature__title">Международная сеть</h3>
+          <p class="feature__text">
+            90+ городов и 150 000 учеников — часть глобального
+            образовательного сообщества.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section id="reviews" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">// Отзывы</span>
+        <h2 class="section__title">Что говорят родители</h2>
+      </div>
+      <div class="reviews">
+        <blockquote class="review">
+          <div class="review__stars">★★★★★</div>
+          <p class="review__text">
+            «Ребёнок доволен, ему нравится. Изучают движок Unity.
+            Очень понравился курс программирования на базе игры Роблокс —
+            ребёнок в восторге, а это самое главное».
+          </p>
+          <footer class="review__author">— Родитель ученика</footer>
+        </blockquote>
+        <blockquote class="review">
+          <div class="review__stars">★★★★★</div>
+          <p class="review__text">
+            «Занимаемся по программе "Графический дизайн". Ребёнку нравится,
+            идёт с удовольствием. Очень дружелюбные преподаватели.
+            Удобная оплата».
+          </p>
+          <footer class="review__author">— Родитель ученицы</footer>
+        </blockquote>
+        <blockquote class="review">
+          <div class="review__stars">★★★★★</div>
+          <p class="review__text">
+            «Дочь занимается программированием, ей нравится, что они не пишут
+            скучные конспекты, а сразу делают проекты. Уроки живые,
+            занятие в виде интерактива».
+          </p>
+          <footer class="review__author">— Родитель ученицы</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contacts" class="section">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__tag">// Контакты</span>
+        <h2 class="section__title">Запишитесь на пробное занятие</h2>
+        <p class="section__desc">
+          Оставьте заявку по телефону или свяжитесь удобным способом.
+        </p>
+      </div>
+      <div class="contacts">
+        <div class="contacts__info">
+          <div class="contact-card">
+            <span class="contact-card__label">Адрес</span>
+            <span class="contact-card__value">г. Грозный, ул. Умара Кадырова, 21</span>
+          </div>
+          <div class="contact-card">
+            <span class="contact-card__label">Телефон</span>
+            <a href="tel:+79667222244" class="contact-card__value contact-card__link">+7 (966) 722-22-44</a>
+          </div>
+          <div class="contact-card">
+            <span class="contact-card__label">Официальный сайт</span>
+            <a href="https://grozny.algoritmika.org" target="_blank" rel="noopener" class="contact-card__value contact-card__link">grozny.algoritmika.org</a>
+          </div>
+          <div class="contact-card">
+            <span class="contact-card__label">Режим работы</span>
+            <span class="contact-card__value">Пн–Чт, Сб–Вс: 10:00–18:30<br>Пт — выходной</span>
+          </div>
+        </div>
+        <div class="contacts__map">
+          <div class="map-placeholder">
+            <div class="map-placeholder__pulse"></div>
+            <span class="map-placeholder__text">Грозный · Умара Кадырова, 21</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta__inner">
+      <h2 class="cta__title">Готовы начать?</h2>
+      <p class="cta__text">
+        Позвоните нам, и мы подберём подходящий курс для вашего ребёнка.
+      </p>
+      <a href="tel:+79667222244" class="btn btn--primary btn--large">+7 (966) 722-22-44</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__mark">A</span>
+        <span>Алгоритмика<span class="logo__dot">.</span></span>
+      </div>
+      <p class="footer__copy">
+        Международная школа программирования для детей. Грозный, ул. Умара Кадырова, 21.
+      </p>
+      <a href="https://grozny.algoritmika.org" target="_blank" rel="noopener" class="footer__link">
+        grozny.algoritmika.org
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
